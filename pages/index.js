@@ -25,10 +25,14 @@ const Home = () => {
           </h1>
           {/* subtitle*/}
           <p className="max-w-sm mx-auto mb-10 xl:max-w-xl xl:mx-0 xl:mb-16">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </p>
+
+          {/* btn */}
+          
+          <div></div>
 
         </div>
       </div>
