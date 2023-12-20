@@ -14,7 +14,7 @@ import { fadeIn } from '../variants';
 
 const Home = () => {
   return (
-    <div className="h-full bg-primary/60">
+    <div className="h-full bg-primary/60 ">
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="container flex flex-col justify-center h-full mx-auto text-center xl:pt-40 xl:text-left">
@@ -32,8 +32,7 @@ const Home = () => {
 
           {/* btn */}
           
-          <div></div>
-
+          
         </div>
       </div>
 
