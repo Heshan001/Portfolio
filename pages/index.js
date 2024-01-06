@@ -62,7 +62,7 @@ const Home = () => {
         {/* particles */}
         <div>particles</div>
         {/* avatar img */}
-        <div>
+        <div className="w-full h-full max-w-[737px] max-h-[678] absolute -bottom-32 lg:bottom-[-22%] lg:right-[-0%] ">
           <Avatar/>
         </div>
       </div>
