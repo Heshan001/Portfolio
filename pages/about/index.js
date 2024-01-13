@@ -16,7 +16,6 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-
 //  about data
 export const aboutData = [
   {
@@ -99,12 +98,11 @@ import { fadeIn } from '../../variants';
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index);
+
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* avatar image */}
-
       <motion.div
         variants={fadeIn('right', 0.1)}
         initial="hidden"
@@ -116,16 +114,14 @@ const About = () => {
       <div className=" container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 
         {/* text */}
-
         <div className=" flex-1 flex flex-col justify-center">
           <h2 className="h2"> Captivating <span className=" text-accent">stories</span> birth magnificent designs.</h2>
-          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">10 years 10 years ago, I began freelancing as a developer. Since then, I've
+          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">10 years ago, I began freelancing as a developer. Since then, I've
             done remote work for agencies, consulted for startups, and
             collaborated on digital products for business and consumer use.</p>
         </div>
 
         {/* info */}
-
         <div className=" flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className=" flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
@@ -133,8 +129,8 @@ const About = () => {
                 <div
                   key={itemIndex}
                   className={`${index === itemIndex &&
-                    'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
-                    } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:bottom-1 after:left-0 `}
+                  "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
+                    } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px]  after:absolute after:-bottom-1 after:left-0 `}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
@@ -152,8 +148,8 @@ const About = () => {
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {/* icon */}
-                    {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl">{icon} </div>;
+                    {item.icons?.map((icon, iconIndex) => {
+                      return <div key={iconIndex} className="text-2xl">{icon}</div>;
                     })}
                   </div>
                 </div>
