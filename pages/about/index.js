@@ -14,6 +14,9 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiLaravel,
+  SiMongodb,
+  SiTailwindcss,
 } from "react-icons/si";
 
 //  about data
@@ -28,8 +31,10 @@ export const aboutData = [
           <FaCss3 key="css3" />,
           <FaJs key="js" />,
           <FaReact key="react" />,
+          <SiNextdotjs key="next" />,          
+          <SiLaravel key="laravel" />,
           <SiNextdotjs key="next" />,
-          <SiFramer key="framer" />,
+          <SiTailwindcss key="tailwind" />,
           <FaWordpress key="wordpress" />,
         ],
       },
@@ -43,12 +48,12 @@ export const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'Best UI/UX developer - OUSL',
+        stage: '2022 - 2023',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Adobe PhotoShop Attractive photo editor -TBS',
+        stage: '2020 - 2021',
       },
     ],
   },
@@ -56,16 +61,20 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'UX/UI Designer - AryaLabs PVT.LTD',
+        stage: '2020 - 2021',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer - AryaLabs PVT.LTD',
+        stage: '2022 - 2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - AryaLabs PVT.LTD',
+        stage: '2022 - 2023',
+      },
+      {
+        title: 'HND University Project -OUSL',
+        stage: '2023',
       },
     ],
   },
@@ -73,16 +82,20 @@ export const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Web Development - TBS,',
+        stage: '2021',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Software Engineering Diploma  - The Open University',
+        stage: '2023',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Certified Graphic Designer - TBS',
+        stage: '2020',
+      },
+      {
+        title: 'BSE . SE(Undergraduate) - The Open University',
+        stage: '2020',
       },
     ],
   },
@@ -148,10 +161,10 @@ const About = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full text-2xl
                   after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl text-accent font-extrabold mb-2">
-                  <CountUp start={0} end={9} duration={5} /> +
+                  <CountUp start={0} end={25} duration={10} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  My All Projects
+                  use Tech stacks
                 </div>
               </div>
               {/* experience */}
@@ -168,10 +181,10 @@ const About = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full text-2xl
                   after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className=" text-2xl xl:text-4xl text-accent font-extrabold mb-2">
-                  <CountUp start={0} end={6} duration={10} /> +
+                  <CountUp start={0} end={9} duration={10} /> +
                 </div>
                 <div className=" text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished Projects
+                  All Projects
                 </div>
               </div>
               {/* ongoing pro */}
