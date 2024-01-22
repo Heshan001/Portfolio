@@ -142,7 +142,7 @@ const About = () => {
            initial="hidden"
            animate="show"
            exit="hidden"
-          className="hidden xl:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
+          className="md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
             <div className=" flex flex-1 xl:gap-x-6">
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full text-2xl
@@ -193,7 +193,7 @@ const About = () => {
          initial="hidden"
          animate="show"
          exit="hidden"
-        className=" flex flex-col w-full xl:max-w-[48%] h-[480px]">
+        className="overflow-auto  flex flex-col w-full xl:max-w-[48%] h-[480px]">
           <div className=" flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
               return (
