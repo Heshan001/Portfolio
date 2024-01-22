@@ -7,16 +7,17 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  
 } from "react-icons/fa";
 
 import {
-  SiNextdotjs,
-  SiFramer,
+  SiNextdotjs,  
   SiAdobexd,
   SiAdobephotoshop,
   SiLaravel,
   SiMongodb,
   SiTailwindcss,
+  
 } from "react-icons/si";
 
 //  about data
@@ -32,8 +33,7 @@ export const aboutData = [
           <FaJs key="js" />,
           <FaReact key="react" />,
           <SiNextdotjs key="next" />,          
-          <SiLaravel key="laravel" />,
-          <SiNextdotjs key="next" />,
+          <SiLaravel key="laravel" />,          
           <SiTailwindcss key="tailwind" />,
           <FaWordpress key="wordpress" />,
         ],
