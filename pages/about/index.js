@@ -125,7 +125,7 @@ const About = () => {
           exit="hidden"
           className="h2"
           > 
-          Creative  <span className=" text-accent">WEB-SITE</span> Developing </motion.h2>
+          Creative  <span className=" text-accent ">WEB-SITE</span> Developing </motion.h2>
           <motion.p 
            variants={fadeIn('right', 0.4)} 
            initial="hidden"
