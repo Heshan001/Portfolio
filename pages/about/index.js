@@ -134,7 +134,7 @@ const About = () => {
           className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
             2 years ago, I startups as a developer. Since then, I have
-            done remote work for companies, consulted for startups, and
+            done work for companies, consulted for startups, and
             developed on websites for business and personal use web sites.
           </motion.p>
           {/* counters */}
